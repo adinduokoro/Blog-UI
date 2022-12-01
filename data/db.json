@@ -23,18 +23,6 @@
       "title": "Testing a 4th post",
       "datetime": "August 02, 2021 11:46:27 AM",
       "body": "Some more testing paragraphs!"
-    },
-    {
-      "id": 5,
-      "title": "klmlkjnkjn",
-      "datetime": "November 26, 2022 4:15:02 PM",
-      "body": "jbjkbkj"
-    },
-    {
-      "id": 6,
-      "title": "j",
-      "datetime": "November 26, 2022 4:22:25 PM",
-      "body": "<Route path='/edit/:id' element={<EditPost\n          posts={posts}\n          handleEdit={handleEdit}\n          editTitle={editTitle}\n          setEditTitle={setEditTitle}\n          editBody={editBody}\n          setEditBody={setEditBody}\n        />} />"
     }
   ]
 }
