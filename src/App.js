@@ -2,6 +2,7 @@ import Layout from './Layout';
 import Home from './Home';
 import NewPost from './NewPost';
 import PostPage from './PostPage';
+import EditPost from './EditPost';
 import About from './About';
 import Missing from './Missing';
 import { Route, Routes, useNavigate } from 'react-router-dom';
