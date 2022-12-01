@@ -110,6 +110,14 @@ function App() {
             handleDelete={handleDelete}
           />} />
         </Route>
+        <Route path="edit/:id" element={<EditPost 
+          posts={posts}
+          handleEdit={handleEdit}
+          editTitle={editTitle}
+          setEditTitle={setEditTitle}
+          editBody={editBody}
+          setEditBody={setEditBody}
+        />} />
         <Route path="about" element={<About />} />
         <Route path="*" element={<Missing />} />
       </Route>
