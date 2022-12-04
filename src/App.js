@@ -11,6 +11,7 @@ import { format } from 'date-fns';
 import api from './api/posts';
 import useWindowSize from './hooks/useWindowSize';
 
+
 function App() {
   const [posts, setPosts] = useState([])
   const [search, setSearch] = useState('');
